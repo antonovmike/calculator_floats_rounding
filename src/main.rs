@@ -1,8 +1,5 @@
 use std::env::{args, Args};
-use round::round_down; 
-// This crate provides utilities to round your floats with precision from 1 to 10.
-// https://crates.io/crates/round
-// #precision #round #floats #rounding #decimals 
+use round::round_down;
 
 fn main() {
     let mut arguments: Args = args();
