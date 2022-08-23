@@ -20,9 +20,9 @@ fn main() {
 
 fn operate(operator: char, first_number: f64, second_number: f64) -> f64{
     match operator {
-        '+'			    => first_number + second_number,
-        '-'			    => first_number - second_number,
-        '/'			    => first_number / second_number,
+        '+'		=> first_number + second_number,
+        '-'		=> first_number - second_number,
+        '/'		=> first_number / second_number,
         '*' | 'x' | 'X' => first_number * second_number,
         _ => 0.0,
     }
